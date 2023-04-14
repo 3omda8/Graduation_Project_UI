@@ -1,12 +1,13 @@
 import React from 'react'
 import './navbar.css'
-import cb from '../images/retina1.jpeg'
+
 
 
 
 export default function Navbar() {
   return (
     <>
+    
     <nav> 
       <ul className='bckg'>
         <li className='navleft'><a className="active" href="https://www.google.com.eg/">Home</a></li>
@@ -17,6 +18,7 @@ export default function Navbar() {
         
       </ul>
     </nav>
+    
     </>
   )
 }

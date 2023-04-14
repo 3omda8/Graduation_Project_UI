@@ -11,7 +11,7 @@ const [image,setImage]=useState(null)
 const [fileName,setFileName] =useState("No Selected File")
 return(
 <>
-<main className="custom">
+<main>
     <form 
     onClick={() => document.querySelector(".input-field").click()}
     >
