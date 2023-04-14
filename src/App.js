@@ -1,13 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
-import './components/Card.css'
+
 import React, { useEffect } from 'react';
-import Navbar from './components/navbar';
-import Card from './components/Card';
 import axios from 'axios';
-import About from "./components/About";
-import Home from './components/Home';
-import Button from './components/button';
+import Uploadphoto from './components/UploadPhoto';
+import Navbar from './components/navbar';
 
 
 
@@ -29,18 +26,12 @@ export default function App() {
 
   return (
 <>
-<body>
-  
-    <Navbar />
-    <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
-    <Button />
-    <div  className='custom'>
-    <Card title='Our Services' link="https://www.google.com.eg/" />
-    <Card title='About' link="https://www.google.com.eg/" />
-    <Card title='Contact Us'  />
-    </div>
-   
-</body>   
+<Navbar />
+
+
+<Uploadphoto />
+
+
 </>
 
   )

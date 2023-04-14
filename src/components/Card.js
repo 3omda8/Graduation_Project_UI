@@ -37,7 +37,7 @@ function CardContent(props) {
 
   Card.defaultProps = {
     title: "Template - Card Title",
-    location: "Location label",
+    location: "MMmmmm",
     description: "Template description textbox"
   };
 

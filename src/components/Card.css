@@ -34,7 +34,10 @@
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    width: 100%;
+    width: 32%;
+    height: 34%;
+    margin-left: 520px;
+    padding-bottom: 64px;
   
   }
 
