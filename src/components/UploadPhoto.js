@@ -56,18 +56,11 @@ return(
 </section>
 
 <section className="btnstyle">
-{image ?  
-      ( <img src={image} /> ) : 
-      (<div> <input id='fileupload' type='file' accept='image/*' className='hidden' /> <br></br>
-      <label className='fontsi' htmlFor='fileupload'> Generate </label>
-      </div>) 
-      }
+    
+<button className="fontsi"> Generate </button>
 
 </section>
 </main>
-
-
-
 
 </>
 );
