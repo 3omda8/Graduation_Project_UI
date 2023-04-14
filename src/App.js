@@ -8,6 +8,7 @@ import Navbar from './components/navbar';
 
 
 
+
 export default function App() {
 
 
@@ -29,10 +30,9 @@ export default function App() {
 <section>
 <Navbar />
 </section>
-<body>
+<section className='custom'>
 <Uploadphoto />
-</body>
-
+</section>
 </>
 
   )

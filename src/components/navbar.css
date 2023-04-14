@@ -6,15 +6,14 @@
  
   .logo{
     color: white;
-    font-size: 48px;
+    font-size: 42px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float:right;
     overflow: hidden;
     margin-left: 160px;
-    margin-top: 80px;
     display: inline-block;
     text-align: center;
-    padding: 10px 20px;
+    padding: 8px 14px;
     text-decoration: none;
   }
  
@@ -32,7 +31,7 @@
   }
   
   li a {
-    margin-top: 100px;
+    margin-top: 8px;
     display: inline-block;
     color: white;
    font-size:24px;
@@ -45,10 +44,6 @@
   color: white;
   }
 
-  .ll{
-    margin-top: 50px;
-    margin-left: 200px;
-  }
 
 
 

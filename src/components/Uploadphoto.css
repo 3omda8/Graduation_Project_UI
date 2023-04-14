@@ -9,6 +9,7 @@ form{
     width: 420px;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 96px;
 }
 
 .Upload-row{
@@ -20,6 +21,8 @@ form{
     background-color: antiquewhite;
     width: 25vw;
     height: 4vh;
+    margin-right: 800px;
+    margin-top: 4px;
 
 }
 
@@ -34,4 +37,41 @@ form{
 .font{
 
     font-size: 22px;
+}
+
+
+
+
+
+.btnstyle {
+
+    color: rgb(0, 51, 255);
+    border-radius: 24px;
+    padding: 8px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+
+input[type='file'] {
+  
+display: none;
+
+}
+
+.fontsi{
+
+    font-size: 18px;
+
+}
+
+label{
+
+    color: black;
+    border-radius: 24px;
+    padding: 8px;
+    background-color:antiquewhite;
+    margin-right: 800px;
+
 }
