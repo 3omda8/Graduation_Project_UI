@@ -1,13 +1,13 @@
 
 import './App.css';
-
 import React, { useEffect } from 'react';
 import axios from 'axios';
 import Uploadphoto from './components/UploadPhoto';
 import Navbar from './components/navbar';
-
-
-
+import { Routes,Route } from 'react-router-dom'
+import About from './components/About';
+import Home from './components/Home';
+import Contact from './components/Contact';
 
 export default function App() {
 
@@ -30,9 +30,13 @@ export default function App() {
 <section>
 <Navbar />
 </section>
-<section className='custom'>
-<Uploadphoto />
-</section>
+<br></br> <br></br> <br></br> <br></br>
+<Routes>
+    <Route path="/" element={<Home />} />
+     <Route path="about"   element={<About />} />
+     <Route path="contact"   element={<Contact />} />
+</Routes>
+
 </>
 
   )

@@ -45,7 +45,6 @@ form{
 
 .btnstyle {
 
-    border-radius: 24px;
     padding: 8px;
     margin-top: 20px;
     text-align: center;
@@ -53,11 +52,9 @@ form{
 }
 
 
-
-
 .fontsi{
 
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 24px;
     padding: 8px;
     background-color:antiquewhite;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css'
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -10,10 +10,9 @@ export default function Navbar() {
     
     <nav> 
       <ul className='bckg'>
-        <li className='navleft'><a className="active" href="https://www.google.com.eg/">Home</a></li>
-        <li className='navleft'><a href="#">Our Services</a></li>
-        <li className='navleft'><a href="#">About</a></li>
-        <li className='navleft'><a href="#">Contact Us</a></li> 
+        <li className='navleft'><Link className="link" to="/">Home</Link></li>
+        <li className='navleft'><Link className="link" to="/about">About</Link></li>
+        <li className='navleft'><Link className="link" to="/contact">Contact </Link></li> 
         <li  className='logo'>Diabetic Retinopathy</li> 
         
       </ul>
