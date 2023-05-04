@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav> 
       <ul className='bckg'>
         <li className='navleft'><Link className="link" to="/">Home</Link></li>
-        <li className='navleft'><Link className="link" to="/about">About</Link></li>
+        <li className='navleft'><Link className="link" to="/about">Information</Link></li>
         <li className='navleft'><Link className="link" to="/contact">Contact </Link></li> 
         <li  className='logo'>Diabetic Retinopathy</li> 
         

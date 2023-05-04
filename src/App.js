@@ -2,7 +2,6 @@
 import './App.css';
 import React, { useEffect } from 'react';
 import axios from 'axios';
-import Uploadphoto from './components/UploadPhoto';
 import Navbar from './components/navbar';
 import { Routes,Route } from 'react-router-dom'
 import About from './components/About';

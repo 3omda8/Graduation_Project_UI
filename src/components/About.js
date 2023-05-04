@@ -47,7 +47,11 @@ export default function About(){
             <img src={summery} className="imag" />
             <br></br> 
             <br></br> 
-
+            <br></br> 
+            <h2>After several months of using the website we make a statistics of our users while their number rich <br></br>
+            160, 626, 320, 510, 218 respectively from stage 0 (no disease visible) to stage 4.</h2>
+            <br></br> 
+            <br></br> 
             <h2>Stage 0: No Disease Visible </h2>
             <h4>This means that the user's X-Ray is good. </h4>
             <img src={s0} className="center" />
@@ -90,7 +94,7 @@ export default function About(){
        
            
            <h5 className='special'>For More Information Click
-             <a href='https://www.healthline.com/health/diabetes/diabetic-retinopathy-stages#stages'> Here</a>
+             <a  href='https://www.healthline.com/health/diabetes/diabetic-retinopathy-stages#stages'> Here</a>
             </h5>
 
            

@@ -1,6 +1,5 @@
 import'./Home.css'
 import { useState} from "react";
-import "./Uploadphoto.css"
 import {MdCloudUpload,MdDelete} from 'react-icons/md'
 import { AiFillFileImage } from "react-icons/ai"
 
@@ -11,7 +10,7 @@ export default function Home() {
     return(
     <>
     <main>
-        <form 
+        <form className='fm1'
         onClick={() => document.querySelector(".input-field").click()}
         >
             <input type="file"  accept="image/*"  className="input-field" hidden 
