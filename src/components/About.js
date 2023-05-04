@@ -44,12 +44,18 @@ export default function About(){
             <br></br> of the disease, while proliferative is an advanced form of the disease.</h4>
             <br></br> 
             <br></br> 
+
+            <h3>* This is a photo that summerize the stages starting from stage 0 (no disease) to stage 4 (PDR) <br></br> 
+            after that there is a detailed information about each stage .</h3>
+
+            <br></br> 
+            <br></br> 
             <img src={summery} className="imag" />
             <br></br> 
             <br></br> 
             <br></br> 
-            <h2>After several months of using the website we make a statistics of our users while their number rich <br></br>
-            160, 626, 320, 510, 218 respectively from stage 0 (no disease visible) to stage 4.</h2>
+            <h3>After several months of using the website we make a statistics of our users while their number rich <br></br>
+            160, 626, 320, 510, 218 respectively from stage 0 (no disease visible) to stage 4 (PDR) .</h3>
             <br></br> 
             <br></br> 
             <h2>Stage 0: No Disease Visible </h2>
