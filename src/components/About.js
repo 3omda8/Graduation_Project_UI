@@ -100,7 +100,7 @@ export default function About(){
        
            
            <h5 className='special'>For More Information Click
-             <a  href='https://www.healthline.com/health/diabetes/diabetic-retinopathy-stages#stages'> Here</a>
+             <a  href='https://www.healthline.com/health/diabetes/diabetic-retinopathy-stages#stages' target="_blank"> Here</a>
             </h5>
 
            

@@ -2,11 +2,15 @@ import'./Home.css'
 import { useState} from "react";
 import {MdCloudUpload,MdDelete} from 'react-icons/md'
 import { AiFillFileImage } from "react-icons/ai"
+import React, { useEffect } from 'react';
+import axios from 'axios';
+
 
 
 export default function Home() {
-    const [image,setImage]=useState(null)
-    const [fileName,setFileName] =useState("No Selected File")
+    const [image,setImage]=useState(null);
+    const [fileName,setFileName] =useState("No Selected File");
+    
     return(
     <>
     <main>
@@ -55,9 +59,15 @@ export default function Home() {
     
     <section className="btnstyle">
         
-    <button className="fontsi"> Generate </button>
+    <button className="fontsi" onClick={() => {useEffect = (axios.post('http://localhost:4000/comments',
+  {"id": 8,
+  "body": "too much",
+  "postId": 2}
+  ).then(res => console.log(res.data))
+  .catch(err => console.log(err)))}}> Generate </button>
     
     </section>
+    
     </main>
     
     </>

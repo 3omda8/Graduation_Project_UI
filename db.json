@@ -21,6 +21,16 @@
       "id": 3,
       "body": "many comments",
       "postId": 2
+    },
+    {
+      "id": 6,
+      "body": "too much",
+      "postId": 4
+    },
+    {
+      "id": 8,
+      "body": "too much",
+      "postId": 2
     }
   ],
   "profile": {

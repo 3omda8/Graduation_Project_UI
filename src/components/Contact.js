@@ -57,13 +57,13 @@ return(
             </div>
         </div>
              <br></br> <br></br> 
-                <a className="social-media-icons-white" href="https://www.facebook.com/">
+                <a className="social-media-icons-white" href="https://www.facebook.com/" target="_blank">
                  <FontAwesomeIcon icon={faFacebook} />
                 </a>
-                <a className="social-media-icons-white" href="https://twitter.com/">
+                <a className="social-media-icons-white" href="https://twitter.com/" target="_blank">
                 <FontAwesomeIcon icon={faTwitter} />
                 </a>
-                <a className="social-media-icons-white" href="https://web.telegram.org/k/">
+                <a className="social-media-icons-white" href="https://web.telegram.org/k/" target="_blank">
                 <FontAwesomeIcon icon={faTelegram} />
                 </a>
 
