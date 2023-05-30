@@ -10,15 +10,18 @@ import axios from 'axios';
 export default function Home() {
     const [image,setImage]=useState(null);
     const [fileName,setFileName] =useState("No Selected File");
-    
+    const [generate,setGenerate] = useState(false);
     return(
     <>
     <main>
+
+    {generate && <label className='result'> Result is : <br></br> bala7 </label>}
         <form className='fm1'
         onClick={() => document.querySelector(".input-field").click()}
         >
+           
             <input type="file"  accept="image/*"  className="input-field" hidden 
-            
+             
             onChange={({target : {files}}) => {
     
                 files[0] && setFileName(files[0].name)
@@ -30,12 +33,10 @@ export default function Home() {
             } }
     
             />
-    
             { image ?
              <img src={image} width={412} height={312} alt={fileName}/> 
              : 
-            <>
-            
+            <> 
             <MdCloudUpload color="#1475cf"  size={60}  /> 
             <p className="font">Browse Files To Upload Photo</p>
             </>
@@ -57,16 +58,12 @@ export default function Home() {
     </span>
     </section>
     
-    <section className="btnstyle">
-        
-    <button className="fontsi" onClick={() => {useEffect = (axios.post('http://localhost:4000/comments',
-  {"id": 8,
-  "body": "too much",
-  "postId": 2}
-  ).then(res => console.log(res.data))
-  .catch(err => console.log(err)))}}> Generate </button>
+    <div className="btnstyle">
+     
+    <button className="fontsi" onClick={() => setGenerate(!generate)} > Generate </button>
     
-    </section>
+    
+    </div>
     
     </main>
     
